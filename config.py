@@ -6,7 +6,6 @@ class Config:
 
     # General
     TESTING = os.environ["TESTING"]
-    SECRET_KEY = os.environ["SECRET_KEY"]
     FLASK_DEBUG = os.environ["FLASK_DEBUG"]
 
     # Database
