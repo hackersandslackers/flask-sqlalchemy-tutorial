@@ -5,12 +5,11 @@ verify_ssl = true
 
 [dev-packages]
 python-dotenv="*"
-pylama="*"
 
 [packages]
 Flask="*"
 Flask-SQLAlchemy="*"
-pymysql="*"
+psycopg2-binary="*"
 
 [requires]
 python_version = "3.7"

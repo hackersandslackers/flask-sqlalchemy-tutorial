@@ -3,7 +3,7 @@ from . import db
 class User(db.Model):
     """Model for user accounts."""
 
-    __tablename__ = 'users'
+    __tablename__ = 'flasksqlalchemy-users'
     id = db.Column(db.Integer,
                    primary_key=True
                    )

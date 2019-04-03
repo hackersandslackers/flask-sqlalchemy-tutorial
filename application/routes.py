@@ -7,8 +7,8 @@ from .models import db, User
 @app.route('/', methods=['GET'])
 def entry():
     """Endpoint to create a user."""
-    new_user = User(username='myuser2',
-                    email='myuser2@example.com',
+    new_user = User(username='myuser3',
+                    email='myuser3@example.com',
                     created=dt.now(),
                     bio="Because he's the hero Gotham deserves, but not the one it needs right now.",
                     admin=False
