@@ -13,7 +13,8 @@ def create_app():
     with app.app_context():
         # Imports
         from . import routes
-        # Initialize Global db
+
+        # Create tables for our models
         db.create_all()
 
         return app
