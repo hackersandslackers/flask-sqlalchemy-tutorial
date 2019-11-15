@@ -9,6 +9,6 @@
 [![GitHub Stars](https://img.shields.io/github/stars/toddbirchard/flasksqlalchemy-tutorial.svg?style=flat-square&colorB=ebcb8b&colorA=4c566a&logo=Github)](https://github.com/toddbirchard/flasksqlalchemy-tutorial/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/toddbirchard/flasksqlalchemy-tutorial.svg?style=flat-square&colorA=4c566a&colorB=ebcb8b&logo=Github)](https://github.com/toddbirchard/flasksqlalchemy-tutorial/network)
 
-![Flask-SQLAlchemy Tutorial](application/static/img/flask-sqlalchemy.jpg)
+![Flask-SQLAlchemy Tutorial](https://raw.githubusercontent.com/toddbirchard/flasksqlalchemy-tutorial/master/application/static/img/flask-sqlachemy-github.jpg)
 
 Source code for tutorial seen on [Hackers and Slackers](https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/).
