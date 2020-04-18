@@ -1,0 +1,49 @@
+body {
+    background: #e1eaf5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: white;
+    width: 800px;
+    margin: 80px auto 0;
+    box-shadow: 0 0 5px rgba(65,67,144,0.15);
+    padding: 50px;
+}
+
+h1 {
+    margin: 0 0 30px;
+    color: #475369;
+}
+
+ul {
+    padding: 0 0 30px;
+    border-bottom: 1px solid #d9dfe4;
+    margin-bottom: 30px;
+}
+
+ul:last-of-type {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+    font-weight: 400;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;
+    color: #475268;
+}
+
+.field-name {
+    font-weight: 500;
+    min-width: 95px;
+    display: inline-block;
+}
+
+.field-value {
+    font-size: .9em;
+}

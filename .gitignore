@@ -103,6 +103,9 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-
 # misc
 .DS_Store
+
+# DB creds
+creds
+creds/*
