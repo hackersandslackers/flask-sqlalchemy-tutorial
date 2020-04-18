@@ -105,6 +105,8 @@ venv.bak/
 
 # misc
 .DS_Store
+.idea
+.idea/*
 
 # DB creds
 creds
