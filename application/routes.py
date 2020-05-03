@@ -6,7 +6,7 @@ from .models import db, User
 
 @app.route('/', methods=['GET'])
 def create_user():
-    """Create a user."""
+    """Create a user via query string parameters."""
     username = request.args.get('user')
     email = request.args.get('email')
     if username and email:
@@ -20,6 +20,6 @@ def create_user():
                         admin=False)  # Create an instance of the User class
         db.session.add(new_user)  # Adds new User record to database
         db.session.commit()  # Commits all changes
-    return render_template('users.html',
+    return render_template('users.jinja2',
                            users=User.query.all(),
                            title="Show Users")
