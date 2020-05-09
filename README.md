@@ -12,6 +12,8 @@
 
 Connect your Flask app to a database using Flask-SQLAlchemy. This repository contains source code for the accompanying tutorial on [Hackers and Slackers](https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/).
 
+Working demo here: https://flasksqlalchemy.hackersandslackers.app
+
 ## Installation
 
 **Installation via `requirements.txt`**:
