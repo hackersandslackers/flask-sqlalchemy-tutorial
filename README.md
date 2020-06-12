@@ -35,15 +35,17 @@ $ pipenv update
 $ flask run
 ```
 
-## Configuration
+## Usage
 
-Configuration is handled by creating a **.env** file. This should contain the following variables (replace the values with your own):
+Replace the values in **.env.example** with your values and rename this file to **.env**:
 
-```.env
-FLASK_ENV="production"
-SECRET_KEY="YOURSECRETKEY"
-SQLALCHEMY_DATABASE_URI="mysql+pymysql://[USER]:[PASSWORD]@[HOST]:[PORT]/[DATABASE_NAME]"
-```
+* `FLASK_APP`: Entry point of your application (should be `wsgi.py`).
+* `FLASK_ENV`: The environment to run your app in (either `development` or `production`).
+* `SECRET_KEY`: Randomly generated string of characters used to encrypt your app's data.
+* `SQLALCHEMY_DATABASE_URI`: SQLAlchemy connection URI to a SQL database.
+
+*Remember never to commit secrets saved in .env files to Github.*
+
 -----
 
 **Hackers and Slackers** tutorials are free of charge. If you found this tutorial helpful, a [small donation](https://www.buymeacoffee.com/hackersslackers) would be greatly appreciated to keep us in business. All proceeds go towards coffee, and all coffee goes towards more content.
