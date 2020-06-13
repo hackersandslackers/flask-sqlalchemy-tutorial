@@ -8,7 +8,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/hackersandslackers/flask-sqlalchemy-tutorial.svg?style=flat-square&colorB=ebcb8b&colorA=4c566a&logo=Github)](https://github.com/hackersandslackers/flask-sqlalchemy-tutorial/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/hackersandslackers/flask-sqlalchemy-tutorial.svg?style=flat-square&colorA=4c566a&colorB=ebcb8b&logo=Github)](https://github.com/hackersandslackers/flask-sqlalchemy-tutorial/network)
 
-![Flask-SQLAlchemy Tutorial](https://raw.githubusercontent.com/hackersandslackers/flask-sqlalchemy-tutorial/master/application/static/img/flask-sqlachemy-github.jpg)
+![Flask-SQLAlchemy Tutorial](https://github.com/hackersandslackers/flask-sqlalchemy-tutorial/blob/master/.github/flask-sqlachemy@2x.jpg?raw=true)
 
 Connect your Flask app to a database using Flask-SQLAlchemy. This repository contains source code for the accompanying tutorial on [Hackers and Slackers](https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/).
 
