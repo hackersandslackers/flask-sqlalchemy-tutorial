@@ -37,6 +37,16 @@ $ pipenv update
 $ flask run
 ```
 
+**Installation via [Poetry](https://python-poetry.org/)**:
+
+```shell
+$ git clone https://github.com/hackersandslackers/flask-sqlalchemy-tutorial.git
+$ cd flask-sqlalchemy-tutorial
+$ poetry shell
+$ poetry update
+$ poetry run
+```
+
 ## Usage
 
 Replace the values in **.env.example** with your values and rename this file to **.env**:
