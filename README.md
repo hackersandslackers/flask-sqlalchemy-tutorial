@@ -10,53 +10,35 @@
 
 ![Flask-SQLAlchemy Tutorial](https://github.com/hackersandslackers/flask-sqlalchemy-tutorial/blob/master/.github/flask-sqlachemy@2x.jpg?raw=true)
 
-Connect your Flask app to a database using Flask-SQLAlchemy. This repository contains source code for the accompanying tutorial on [Hackers and Slackers](https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/).
+Connect your Flask app to a database using Flask-SQLAlchemy.
+ 
+**Tutorial**: https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/
+**Demo**: https://flasksqlalchemy.hackersandslackers.app
 
-Working demo here: https://flasksqlalchemy.hackersandslackers.app
+# Getting Started
 
-## Installation
+Get set up locally in two steps:
 
-**Installation via `requirements.txt`**:
-
-```shell
-$ git clone https://github.com/hackersandslackers/flask-sqlalchemy-tutorial.git
-$ cd flask-sqlalchemy-tutorial
-$ python3 -m venv myenv
-$ source myenv/bin/activate
-$ pip3 install -r requirements.txt
-$ flask run
-```
-
-**Installation via [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/)**:
-
-```shell
-$ git clone https://github.com/hackersandslackers/flask-sqlalchemy-tutorial.git
-$ cd flask-sqlalchemy-tutorial
-$ pipenv shell
-$ pipenv update
-$ flask run
-```
-
-**Installation via [Poetry](https://python-poetry.org/)**:
-
-```shell
-$ git clone https://github.com/hackersandslackers/flask-sqlalchemy-tutorial.git
-$ cd flask-sqlalchemy-tutorial
-$ poetry shell
-$ poetry update
-$ poetry run
-```
-
-## Usage
+### Environment Variables
 
 Replace the values in **.env.example** with your values and rename this file to **.env**:
 
-* `FLASK_APP`: Entry point of your application (should be `wsgi.py`).
-* `FLASK_ENV`: The environment to run your app in (either `development` or `production`).
+* `FLASK_APP`: Entry point of your application; should be `wsgi.py`.
+* `FLASK_ENV`: The environment in which to run your application; either `development` or `production`.
 * `SECRET_KEY`: Randomly generated string of characters used to encrypt your app's data.
 * `SQLALCHEMY_DATABASE_URI`: SQLAlchemy connection URI to a SQL database.
 
 *Remember never to commit secrets saved in .env files to Github.*
+
+### Installation
+
+Get up and running with `make deploy`:
+
+```shell
+$ git clone https://github.com/hackersandslackers/flask-sqlalchemy-tutorial.git
+$ cd flask-sqlalchemy-tutorial
+$ make deploy
+``` 
 
 -----
 
