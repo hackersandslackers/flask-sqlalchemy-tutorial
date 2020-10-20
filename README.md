@@ -12,9 +12,9 @@
 
 Connect your Flask app to a database using Flask-SQLAlchemy.
  
-**Tutorial**: https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/
+* **Tutorial**: https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/
 
-**Demo**: https://flasksqlalchemy.hackersandslackers.app
+* **Demo**: https://flasksqlalchemy.hackersandslackers.app
 
 # Getting Started
 
