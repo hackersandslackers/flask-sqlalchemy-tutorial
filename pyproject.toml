@@ -23,7 +23,7 @@ flask = "*"
 flask_sqlalchemy = "*"
 pymysql = "*"
 python-dotenv = "*"
-ddtrace = "^0.44.0"
+ddtrace = "^0.45.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
