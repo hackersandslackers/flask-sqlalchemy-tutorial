@@ -235,7 +235,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
 [[package]]
 name = "pymysql"
-version = "0.10.1"
+version = "1.0.0"
 description = "Pure Python MySQL Driver"
 category = "main"
 optional = false
@@ -542,8 +542,8 @@ py = [
     {file = "py-1.9.0.tar.gz", hash = "sha256:9ca6883ce56b4e8da7e79ac18787889fa5206c79dcc67fb065376cd2fe03f342"},
 ]
 pymysql = [
-    {file = "PyMySQL-0.10.1-py2.py3-none-any.whl", hash = "sha256:44f47128dda8676e021c8d2dbb49a82be9e4ab158b9f03e897152a3a287c69ea"},
-    {file = "PyMySQL-0.10.1.tar.gz", hash = "sha256:263040d2779a3b84930f7ac9da5132be0fefcd6f453a885756656103f8ee1fdd"},
+    {file = "PyMySQL-1.0.0-py3-none-any.whl", hash = "sha256:1ebdce36061c61fe32d3156825768236ac19b62b23180e1667032b2c690921c7"},
+    {file = "PyMySQL-1.0.0.tar.gz", hash = "sha256:b2508a7dc6b626210e52f711d2c2361d102d8d9b8b144e63b2512e748de1a49b"},
 ]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
