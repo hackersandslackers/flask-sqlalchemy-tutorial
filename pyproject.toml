@@ -28,7 +28,7 @@ ddtrace = "^0.53.2"
 [tool.poetry.dev-dependencies]
 pytest = "*"
 black = "^22.1"
-isort = "^5.9.3"
+isort = "^5.10.1"
 
 [tool.poetry.scripts]
 run = "wsgi:main"
