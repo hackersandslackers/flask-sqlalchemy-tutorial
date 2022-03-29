@@ -27,7 +27,7 @@ ddtrace = "^0.53.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
-black = "^22.1"
+black = "^22.3"
 isort = "^5.10.1"
 
 [tool.poetry.scripts]
