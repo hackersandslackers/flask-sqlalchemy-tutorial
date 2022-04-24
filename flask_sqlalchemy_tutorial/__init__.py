@@ -1,11 +1,8 @@
 """Initialize Flask app."""
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from ddtrace import patch_all
-
 
 db = SQLAlchemy()
-patch_all()
 
 
 def create_app():

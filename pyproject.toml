@@ -23,12 +23,11 @@ flask = "*"
 flask_sqlalchemy = "*"
 pymysql = "*"
 python-dotenv = "*"
-ddtrace = "^0.53.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "*"
-black = "^22.1"
-isort = "^5.10.1"
+black = "*"
+isort = "*"
 
 [tool.poetry.scripts]
 run = "wsgi:main"

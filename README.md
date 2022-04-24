@@ -1,8 +1,8 @@
 # Flask-SQLAlchemy Tutorial
 
 ![Python](https://img.shields.io/badge/Python-v^3.8-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
-![Flask](https://img.shields.io/badge/Flask-v1.1.2-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
-![Flask-SQLAlchemy](https://img.shields.io/badge/Flask--SQLAlchemy-2.4.1-red.svg?longCache=true&style=flat-square&logo=flask&logoColor=white&colorA=4c566a&colorB=5e81ac)
+![Flask](https://img.shields.io/badge/Flask-v2.1.1-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
+![Flask-SQLAlchemy](https://img.shields.io/badge/Flask--SQLAlchemy-2.5.1-red.svg?longCache=true&style=flat-square&logo=flask&logoColor=white&colorA=4c566a&colorB=5e81ac)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat-square&colorA=4c566a&colorB=a3be8c)
 [![GitHub Issues](https://img.shields.io/github/issues/hackersandslackers/flask-sqlalchemy-tutorial.svg?style=flat-square&colorA=4c566a&colorB=ebcb8b&logo=Github)](https://github.com/hackersandslackers/flask-sqlalchemy-tutorial/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/hackersandslackers/flask-sqlalchemy-tutorial.svg?style=flat-square&colorB=ebcb8b&colorA=4c566a&logo=Github)](https://github.com/hackersandslackers/flask-sqlalchemy-tutorial/stargazers)
