@@ -8,7 +8,7 @@ itsdangerous==2.1.2; python_version >= "3.7" and python_full_version < "3.0.0" o
 jinja2==3.1.2; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.7"
 markupsafe==2.1.1; python_version >= "3.7"
 pymysql==1.0.2; python_version >= "3.6"
-python-dotenv==0.20.0; python_version >= "3.5"
+python-dotenv==1.0.0; python_version >= "3.5"
 sqlalchemy==1.4.36; python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.6.0"
 werkzeug==2.1.2; python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.4.0" and python_version >= "3.7"
 zipp==3.8.0; python_version < "3.10" and python_version >= "3.7"
