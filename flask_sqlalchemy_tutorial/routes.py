@@ -1,5 +1,5 @@
 """Application routes."""
-from datetime import datetime as dt
+from datetime import datetime
 
 from flask import current_app as app
 from flask import make_response, redirect, render_template, request, url_for
@@ -21,7 +21,7 @@ def user_records():
         new_user = User(
             username=username,
             email=email,
-            created=dt.now(),
+            created=datetime.now(),
             bio="In West Philadelphia born and raised, \
             on the playground is where I spent most of my days",
             admin=False,
