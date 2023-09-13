@@ -20,7 +20,7 @@ python-dotenv = "*"
 pytest = "*"
 black = "*"
 isort = "*"
-mypy = "^1.5.1"
+mypy = "*"
 
 [tool.poetry.scripts]
 run = "main:app"

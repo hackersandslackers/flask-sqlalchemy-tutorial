@@ -13,9 +13,7 @@ def user_records():
     username = request.args.get("user")
     email = request.args.get("email")
     if username and email:
-        existing_user = User.query.filter(
-            User.username == username or User.email == email
-        ).first()
+        existing_user = User.query.filter(User.username == username or User.email == email).first()
         if existing_user:
             return make_response(f"{username} ({email}) already created!")
         new_user = User(

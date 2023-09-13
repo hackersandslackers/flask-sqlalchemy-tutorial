@@ -1,5 +1,10 @@
 """Flask configuration variables."""
-from os import environ
+from os import environ, path
+
+from dotenv import load_dotenv
+
+BASE_DIR = path.abspath(path.dirname(__file__))
+load_dotenv(path.join(BASE_DIR, ".env"))
 
 
 class Config:
@@ -11,7 +16,6 @@ class Config:
     # Flask Config
     FLASK_APP = "main.py"
     FLASK_DEBUG = environ.get("FLASK_DEBUG")
-    FLASK_ENV = environ.get("FLASK_ENV")
 
     # Database
     SQLALCHEMY_DATABASE_URI = environ.get("SQLALCHEMY_DATABASE_URI")
