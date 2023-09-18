@@ -27,4 +27,4 @@ def user_records():
         db.session.add(new_user)  # Adds new User record to database
         db.session.commit()  # Commits all changes
         redirect(url_for("user_records"))
-    return render_template("users.jinja2", users=User.query.all(), title="Show Users")
+    return render_template("users.jinja2", users=User.query.all(), title="All Users")

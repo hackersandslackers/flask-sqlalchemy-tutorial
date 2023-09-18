@@ -12,8 +12,8 @@
 
 Connect your Flask app to a database using Flask-SQLAlchemy.
  
-* **Tutorial**: https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/
-* **Demo**: https://flasksqlalchemy.hackersandslackers.app
+* **Tutorial**: [https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/](https://hackersandslackers.com/manage-database-models-with-flask-sqlalchemy/)
+* **Demo**: [https://flasksqlalchemy.hackersandslackers.com](https://flasksqlalchemy.hackersandslackers.com)
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ Get set up locally in two steps:
 
 Replace the values in **.env.example** with your values and rename this file to **.env**:
 
-* `ENVIRONMENT`: The environment in which to run your application; either `development` or `production`.
+* `ENVIRONMENT`: The environment in which to run your application (either `development` or `production`).
 * `FLASK_DEBUG`: Whether to run Flask in "debug mode".
 * `SECRET_KEY`: Randomly generated string of characters used to encrypt your app's data.
 * `SQLALCHEMY_DATABASE_URI`: SQLAlchemy connection URI to a SQL database.

@@ -21,6 +21,7 @@ pytest = "*"
 black = "*"
 isort = "*"
 mypy = "*"
+gunicorn = "^21.2.0"
 
 [tool.poetry.scripts]
 run = "main:app"
