@@ -24,7 +24,7 @@ mypy = "*"
 gunicorn = "^21.2.0"
 
 [tool.poetry.scripts]
-run = "main:app"
+run = "wsgi:app"
 
 [tool.poetry.urls]
 issues = "https://github.com/hackersandslackers/flask-sqlalchemy-tutorial/issues"
@@ -36,7 +36,9 @@ build-backend = "poetry.masonry.api"
 [tool.black]
 line-length = 120
 target-version = ['py310']
-src_paths = ["flask_sqlalchemy_tutorial", "config", "main"]
+
+[tool.isort]
+profile = "black"
 
 [tool.pylint.'MESSAGES CONTROL']
 disable = "C0103,C0301,W0703,W0621"

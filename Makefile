@@ -24,15 +24,18 @@ all help:
 
 env: $(VIRTUAL_ENV)
 
+
 $(VIRTUAL_ENV):
 	if [ ! -d $(VIRTUAL_ENV) ]; then \
 		echo "Creating Python virtual env in \`${VIRTUAL_ENV}\`"; \
 		python3 -m venv $(VIRTUAL_ENV); \
 	fi
 
+
 .PHONY: run
 run: env
 	$(LOCAL_PYTHON) -m gunicorn -w 4 wsgi:app
+
 
 .PHONY: install
 install: env
@@ -40,10 +43,12 @@ install: env
 	$(LOCAL_PYTHON) -m pip install -r requirements.txt && \
 	echo Installed dependencies in \`${VIRTUAL_ENV}\`;
 
+
 .PHONY: deploy
 deploy:
 	make install && \
 	make run
+
 
 .PHONY: test
 test: env
@@ -53,6 +58,7 @@ test: env
 		coverage html --title='Coverage Report' -d .reports && \
 		open .reports/index.html
 
+
 .PHONY: update
 update: env
 	$(LOCAL_PYTHON) -m pip install --upgrade pip setuptools wheel && \
@@ -60,10 +66,12 @@ update: env
 	poetry export -f requirements.txt --output requirements.txt --without-hashes && \
 	echo Installed dependencies in \`${VIRTUAL_ENV}\`;
 
+
 .PHONY: format
 format: env
 	$(LOCAL_PYTHON) -m isort --multi-line=3 . && \
 	$(LOCAL_PYTHON) -m black .
+
 
 .PHONY: lint
 lint: env
@@ -72,6 +80,7 @@ lint: env
 			--exclude .git,.github,__pycache__,.pytest_cache,.venv,logs,creds,.venv,docs,logs,.reports \
 			--show-source \
 			--statistics
+
 
 .PHONY: clean
 clean:
