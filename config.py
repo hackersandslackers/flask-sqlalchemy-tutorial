@@ -13,6 +13,7 @@ class Config:
 
     # General Config
     ENVIRONMENT = environ.get("ENVIRONMENT")
+    APP_NAME = "flask_sqlalchemy_tutorial"
 
     # Flask Config
     FLASK_APP = "wsgi.py"
@@ -23,3 +24,6 @@ class Config:
     SQLALCHEMY_DATABASE_URI = environ.get("SQLALCHEMY_DATABASE_URI")
     SQLALCHEMY_ECHO = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+
+settings = Config

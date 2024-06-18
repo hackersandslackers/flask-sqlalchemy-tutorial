@@ -24,9 +24,9 @@ if ENVIRONMENT == "development" or ENVIRONMENT is None:
     bind = ["127.0.0.1:8000"]
 elif ENVIRONMENT == "production":
     daemon = True
-    accesslog = "/var/log/flasksession/access.log"
-    errorlog = "/var/log/flasksession/error.log"
+    accesslog = "/var/log/flasksqlalchemy/access.log"
+    errorlog = "/var/log/flasksqlalchemy/error.log"
     loglevel = "trace"
-    dogstatsd_tags = "env:prod,service:flasksession,language:python"
+    dogstatsd_tags = "env:prod,service:flasksqlalchemy,language:python"
 else:
     raise ValueError(f"Unknown environment provided: `{ENVIRONMENT}`. Must be `development` or `production`.")

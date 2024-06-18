@@ -22,6 +22,8 @@ black = "*"
 isort = "*"
 mypy = "*"
 gunicorn = "^21.2.0"
+poetry-plugin-export = "^1.8.0"
+loguru = "^0.7.2"
 
 [tool.poetry.scripts]
 run = "wsgi:app"
