@@ -21,7 +21,7 @@ pytest = "*"
 black = "*"
 isort = "*"
 mypy = "*"
-gunicorn = "^21.2.0"
+gunicorn = "^22.0.0"
 poetry-plugin-export = "^1.8.0"
 loguru = "^0.7.2"
 
