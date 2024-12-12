@@ -13,7 +13,7 @@ keywords = ["Flask", "SQLAlchemy", "SQL", "Flask-SQLAlchemy", "Tutorial"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
-flask = "*"
+flask = "^3.1.0"
 flask_sqlalchemy = "*"
 pymysql = "*"
 python-dotenv = "*"
@@ -23,7 +23,7 @@ isort = "*"
 mypy = "*"
 gunicorn = "^21.2.0"
 poetry-plugin-export = "^1.8.0"
-loguru = "^0.7.2"
+loguru = "^0.7.3"
 
 [tool.poetry.scripts]
 run = "wsgi:app"
