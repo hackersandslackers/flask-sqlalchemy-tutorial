@@ -1,6 +1,6 @@
 PROJECT_NAME := $(shell basename $CURDIR)
 VIRTUAL_ENV := $(CURDIR)/.venv
-LOCAL_PYTHON := $(VIRTUAL_ENV)/bin/python3
+LOCAL_PYTHON := $(VIRTUAL_ENV)/bin/python
 
 define HELP
 Manage $(PROJECT_NAME). Usage:
