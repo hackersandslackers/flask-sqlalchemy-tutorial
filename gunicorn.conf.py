@@ -11,22 +11,19 @@ load_dotenv(path.join(basedir, ".env"))
 # Fetch deployment environment from environment variables.
 ENVIRONMENT = environ.get("ENVIRONMENT")
 
-proc_name = "flasksession"
+proc_name = "flasksqlalchemy"
 wsgi_app = "wsgi:app"
-bind = "unix:flask.sock"
-threads = 4
+bind = ["127.0.0.1:8009"]
+threads = 2
 workers = 2
+access_log_format = "%(h)s %(l)s %(u)s %(t)s %(r)s %(s)s %(b)s %(f)s %(a)s"
 
 if ENVIRONMENT == "development" or ENVIRONMENT is None:
     reload = True
     workers = 1
     threads = 1
-    bind = ["127.0.0.1:8000"]
 elif ENVIRONMENT == "production":
-    daemon = True
-    accesslog = "/var/log/flasksqlalchemy/access.log"
-    errorlog = "/var/log/flasksqlalchemy/error.log"
-    loglevel = "trace"
-    dogstatsd_tags = "env:prod,service:flasksqlalchemy,language:python"
+    accesslog = "/var/log/flasksqlalchemy/access.json"
+    errorlog = "/var/log/flasksqlalchemy/error.json"
 else:
     raise ValueError(f"Unknown environment provided: `{ENVIRONMENT}`. Must be `development` or `production`.")
